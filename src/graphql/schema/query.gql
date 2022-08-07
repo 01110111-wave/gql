@@ -1,0 +1,4 @@
+type Query {
+  Hello(word:String!): String!
+  dogs: [Dog!]!
+}
