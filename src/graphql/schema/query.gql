@@ -1,4 +1,4 @@
 type Query {
-  Hello(word:String!): String!
+  Hello(word: String): String!
   dogs: [Dog!]!
 }
